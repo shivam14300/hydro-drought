@@ -1,0 +1,3 @@
+#!/home/abhinav/hydro-drought/api/hydro/bin/python3
+from numba.pycc import main
+main()

@@ -1,30 +1,31 @@
-# Hydrology Project
+# Drought Assessment
 
-## Running project locally
+### npm
 
-### Start backend
++ `sudo apt update`
++ `sudo apt install nodejs`
++ `sudo apt install npm`
 
-1. Environment Setup (Inside api folder) :
 
-    a. Create virtual environment with `python3 -m venv venv`
+### Backend
 
-    b. `source venv/bin/activate` to activate the virtual environment
+Inside `api` folder
 
-    c. `python3 -m pip install -r requirements.txt` to install the dependencies
++ Create virtual environment with `python3 -m venv drought_ass`
 
-2. Starting flask server : 
++ `source drought_ass/bin/activate` to activate the virtual environment
 
-    a. `python3 app.py` will start server on http://0.0.0.0:5000/
++ `python3 -m pip install -r requirements.txt` to install the dependencies
+w
++ `python3 app.py`
 
-### Start frontend
+### Frontend
 
-1. Environment Setup (In the root directory) :
+In the root directory
 
-    a. Install dependencies with `npm install`
++ Install dependencies with `npm install`
 
-2. Running react application : 
-
-    a. `npm run start` will start app on http://localhost:3000/
++ `npm run start` will start app on http://localhost:3000/
 
 
 
