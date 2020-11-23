@@ -1,0 +1,3 @@
+#!/mnt/e/Hydro/hydrology_project-master/hydrology_project-master/api/drought/bin/python3
+from numba.pycc import main
+main()
